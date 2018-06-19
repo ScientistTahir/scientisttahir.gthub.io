@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile</title>
+		<style>
+		a:hover{
+		border: 1px solid #f0f0f5;
+		background-color:#f0f0f5;
+		}
+		li{
+		display:inline;
+		font-size:15px;
+		margin-right:100px;
+		border: 1px solid #c2c2d6;
+		background-color:#c2c2d6;
+		border-radius: 10%;
+		font-size: 25px;
+		}
+		a{
+		text-decoration:none;
+		}
+		.marquee{
+		overflow:hidden;
+		}
+		.side{
+		background-color:gray;
+		width:25%;
+		height:300px;
+		margin-top:-14px;
+		}
+		.content{
+		width:75%;
+		float:right;
+		margin-top:-300px;
+		}
+		</style>
+	</head>
+	<body style="background-image:url(body.jpg)">
+	<div style="margin:0px 136px 0px 136px;background-color:#e6f2ff;">
+		<div>
+			<MARQUEE behavior="scroll" direction="left" width="100%" scrollamount="10" onmousedown="this.stop();" onmouseup="this.start();">
+				<img src="tahir.jpg">
+				<img src="tahir2.jpg">
+				<img src="tahir3.jpg">
+			</MARQUEE>
+		</div>
+		<div style="margin-top:-20px;margin-left:-35px;">
+			<ul>
+				<li><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/tahir.html" target="iframe_a">About me</a></li>
+				<li><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/skills.html" target="iframe_a">Skills</a></li>
+				<li><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/email.html" target="iframe_a">Email Address</a></li>
+				<li><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/proj.html" target="iframe_a">Portfolio</a></li>
+			</ul>
+		</div>
+		<div class="side">
+			<b style="color:blue;font-size:30px;">About</b>
+			<h3><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/tahir.html" target="iframe_a">Muhammad Tahir</a></h3>
+			<h3><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/skills.html" target="iframe_a">Skills</a></h3>
+			<h3><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/email.html" target="iframe_a">Email Addresses</a></h3>
+			<h3><a href="file:///home/rizwan/Downloads/ICT%20Project%20complet/proj.html" target="iframe_a">Portfolio</a></h3>
+		</div>
+		<div class="content">
+			<iframe height="300px" width="100%" src="demo_iframe.htm" name="iframe_a"></iframe>
+		</div>
+		<div style="background-color:gray;margin-top:-15px;height:30px;">
+		<p style="font-size:20px;">&copy scientist &copy </p>
+		<p style="color:#003d99;float:right;margin-top:-40px;font-size:18px;width:100px;"><img src="facebook-logo.png" style="height:30px;width:30px;"></p>
+		</div>
+	</div>
+	</body>
+</html>
